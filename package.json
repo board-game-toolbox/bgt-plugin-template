@@ -1,7 +1,7 @@
 {
-  "name": "bgt-plugin-template",
-  "private": true,
-  "version": "0.1.0",
+  "name": "@board-game-toolbox/plugin-template",
+  "version": "0.1.3",
+  "description": "plugin template for board-game-toolbox",
   "type": "module",
   "scripts": {
     "dev": "vite",

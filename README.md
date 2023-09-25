@@ -1,6 +1,8 @@
 # Board Game Toolbox Plugin Template
 
-Altered from [vite's react-ts template](https://stackblitz.com/edit/vitejs-vite-orp9e9?file=index.html&terminal=dev)
+Plugin template for board-game-toolbox.
+
+Altered from [vite's react-ts template](https://stackblitz.com/edit/vitejs-vite-orp9e9?file=index.html&terminal=dev).
 
 ## Main Changes
 
