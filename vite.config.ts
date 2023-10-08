@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import type { InputPluginOption } from 'rollup';
-import legacy from '@vitejs/plugin-legacy';
 
 /**
  * change all `"/[url]"` behind `src` and `href` to `"./[url]"`
@@ -26,14 +25,11 @@ function RelativePathPlugin(): InputPluginOption {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    legacy({
-      targets: ['defaults', 'not IE 11'],
-      renderModernChunks: false,
-    }),
-  ],
+  plugins: [react()],
   build: {
+    modulePreload: {
+      polyfill: false,
+    },
     rollupOptions: {
       plugins: [RelativePathPlugin()],
     },
