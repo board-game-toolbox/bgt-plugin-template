@@ -2,6 +2,10 @@
   "name": "@board-game-toolbox/plugin-template",
   "version": "0.1.10",
   "description": "plugin template for board-game-toolbox",
+  "bgt": {
+    "name": "BGT Plugin Template",
+    "desc": "a simple plugin template for board-game-toolbox"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +15,6 @@
   },
   "files": [
     "dist",
-    "manifest.json",
     "icon.png"
   ],
   "dependencies": {
