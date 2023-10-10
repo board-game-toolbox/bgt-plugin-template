@@ -1,6 +1,6 @@
 {
   "name": "@board-game-toolbox/plugin-template",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "plugin template for board-game-toolbox",
   "bgt": {
     "name": "BGT Plugin Template",
