@@ -9,8 +9,9 @@ Altered from [vite's react-ts template](https://stackblitz.com/edit/vitejs-vite-
 ### Upload Plugin
 
 ```bash
+pnpm build
 pnpm icon
-npm publish
+npm publish --access public
 ```
 
 After publishing, you can load `https://registry.npmjs.org/${your-project-name}` to see the metadata.
