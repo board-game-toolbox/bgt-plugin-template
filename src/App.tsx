@@ -1,5 +1,7 @@
 const ua = navigator.userAgent;
 
+window.bgt?.toast('Hello');
+
 function App() {
   return (
     <>
